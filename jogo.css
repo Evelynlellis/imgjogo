@@ -1,0 +1,81 @@
+
+body {
+  margin-top: 50px; /* Ajuste essa margem conforme necessário */
+ background-color: #000;
+} 
+  /* Realiza o reset das configurações do navegador*/
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nosifer', serif;
+    outline: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+  }
+  
+  /* Definição do barra de navegação */
+  .bg-cor-que-eu-quero {
+    background: rgba(253, 0, 198, 0.493);
+  }
+ 
+  #titulo {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  #navbar-items .navbar-nav {
+    display: flex;
+   justify-content: center;
+  width: 100%;
+   
+  }
+  
+  .navbar-nav a {
+    color: var(--cor-fonte);
+  }
+  
+  /* Ajusta as configurações do container*/
+  .principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .principal a {
+    height: 4rem;
+  }
+  
+  i {
+    font-size: 3rem;
+  }
+  
+
+  
+
+  
+  
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+ 
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(255, 0, 119);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+#resetButton {
+        margin-top: 10px; 
+    }
